@@ -126,7 +126,18 @@ nano config.json
 chmod +x init.config
 ./init.config
 ```
+##  update
+```
+docker stop
+docker rm
+```
 
+```
+docker compose up --build -d
+```
+```
+docker compose logs -f
+```
 -------------------------------------------------------------
 
 #### Check your wallet here: http://worker-tx.nodium.xyz/
